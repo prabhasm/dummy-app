@@ -1,4 +1,4 @@
-@Library('jenkins-shared-library@v4.3.4') _
+@Library('jenkins-shared-library@feature/poc') _
 
 odsComponentPipeline(
   imageStreamTag: 'ods/jenkins-agent-golang:3.x',
