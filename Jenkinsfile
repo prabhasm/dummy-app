@@ -1,6 +1,6 @@
 @Library('jenkins-shared-library@feature/poc') _
 
-odsComponentPipeline(
+componentPipeline(
   imageStreamTag: 'ods/jenkins-agent-golang:3.x',
   branchToEnvironmentMapping: [
     'master': 'dev',
