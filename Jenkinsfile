@@ -2,13 +2,15 @@
 
 pipeline{
   agent any
-  stages('build'){
-    steps{
-      buildTool(
-        build: [
-          buildType: 'maven'
-        ]
-      )
+  stages{
+    stage('build'){
+      steps{
+        buildTool(
+          build: [
+            buildType: 'maven'
+          ]
+        )
+      }
     }
   }
 }
