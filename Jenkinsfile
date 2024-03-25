@@ -2,7 +2,7 @@
 
 pipeline{
   agent any
-  stage('build'){
+  stages('build'){
     step{
       buildTool(
         build: [
