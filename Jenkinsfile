@@ -7,7 +7,7 @@ pipeline{
       steps{
         buildTool(
           build: [
-            buildType: 'maven'
+            toolType: 'maven'
           ]
         )
       }
