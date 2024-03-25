@@ -3,7 +3,7 @@
 pipeline{
   agent any
   stages('build'){
-    step{
+    steps{
       buildTool(
         build: [
           buildType: 'maven'
